@@ -1,0 +1,480 @@
+
+body{
+  padding: 0%;
+  margin: 0px;
+}
+
+.nav_up{
+width: 100%;
+height:80px;
+
+}
+
+#navbar{
+/* border:1px solid black; */
+display: flex;
+justify-content: space-between;
+background-color: white;
+height:80px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+background-color: #FFFFFF;
+width:100%;
+align-items: center;
+top:0;
+z-index: 1;
+position: fixed; 
+margin-bottom:20px;  
+}
+
+.parent-box-1{
+/* border:1px solid blue; */
+margin-left: 4%;
+align-items: center;
+display: flex;
+justify-content: space-between;
+width: 45%;
+}
+
+.logo_div{
+/* border: 1px solid green; */
+align-content: center;
+width: 20%;
+height:55px;
+cursor:pointer;
+margin: auto;
+}
+#logo{
+height:36px;
+width: 53px;
+margin-top: 15%;
+}
+
+.menu_div{
+/* border: 1px solid teal; */
+display: flex;
+width:90% ;
+justify-content:space-between;
+height:100%;
+
+
+}
+
+.parent-box-2{
+/* border:1px solid red; */
+margin-left: 2%;
+display: flex;
+align-items: center;
+width: 27%;
+height: 100%;
+
+}
+
+.parent-box-3{
+/* border: 1px solid black; */
+display: flex;
+margin-right: 4%;
+margin-left: 4%;
+justify-content: space-between;
+
+}
+
+/* background colour of d */
+
+#d2,#d4,#d6{
+background-color:rgb(249, 249, 249);
+
+}
+
+#searchBox{
+display: flex;
+justify-content: space-between;
+width: 100%;
+height: 38px;
+background-color: #f5f5f6;
+align-items: center;
+/* border: none; */
+border-radius: 4px;
+}
+#searchBox img{
+width: 4%;
+margin: 4%;
+}
+#search {
+width: 100%;
+border: none;
+background-color: #f5f5f6;
+font-size: 13px;
+outline: none;
+
+}
+
+#other_div{
+/* border: 1px solid black; */
+display: flex;
+justify-content: space-around;
+margin-left: -20%;
+align-items: center;
+text-align: center;
+height:100%;
+
+
+}
+#other_div>div{
+/* border:1px solid red; */
+height:max-content;
+}
+#other_div>div>h5>a{
+color:rgb(40,44,63);
+text-decoration: none;
+font-size: 16px;
+font-weight: 400;
+
+}
+#other_div>div>h5{
+line-height:0px;
+margin-top: 14px;
+cursor:pointer;
+}
+
+
+#profile{
+cursor:pointer;
+/* border:1px solid red; */
+width: 25px;
+height: 25px;
+}
+
+#main_div{
+    /* border:1px solid red; */
+    display: inline-block;
+    position: relative;
+    height:70%;
+    
+}
+
+
+#button1, #button2, #button3, #button4, #button5, #button6{
+background-color:white;
+cursor: pointer;
+text-decoration: none;
+color: rgb(40,44,63);
+font-weight: 700;
+font-size: 12px;
+font-family:sans-serif;
+letter-spacing: 0.5px;
+
+
+}
+
+#button1:hover{
+border-bottom: 3px solid#ee5f73;
+/* border-bottom: 3px solid teal; */
+padding-bottom: 27px;
+border-bottom-width: 10%;
+/* border: 5px solid black; */
+
+}
+
+#button2:hover{
+border-bottom: 3px solid hotpink;
+padding-bottom: 27px;
+
+}
+
+#button3:hover{
+border-bottom: 3px solid #f26a10;
+padding-bottom: 27px;
+
+}
+
+#button4:hover{
+border-bottom: 3px solid #f2c210;
+padding-bottom: 27px;
+
+}
+
+#button5:hover{
+border-bottom: 3px solid #0db7af;
+padding-bottom: 27px;
+
+}
+
+#button6:hover{
+border-bottom: 3px solid #ff3f6c;
+padding-bottom: 27px;
+
+}
+
+#saurav1,#saurav2,#saurav3,#saurav4,#saurav5,#saurav7{
+background-color:white;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+z-index: 1;
+visibility: hidden;
+position: absolute;
+width: max-content;
+transition: 0.15s;
+opacity: 0;
+border-radius:0px 0px 12px 12px ;
+margin-top: 27px;
+/* border: 5px solid black; */
+}
+
+#saurav1 .h5>a{
+color: #ee5f73;
+}
+
+#saurav2 .h5>a{
+color: hotpink;
+}
+
+#saurav3 .h5>a{
+color: #f26a10;
+}
+
+#saurav4 .h5>a{
+color: #f2c210;
+}
+
+#saurav5 .h5>a{
+color: #0db7af;
+}
+
+#saurav7 .h5>a{
+color: #ff3f6c;
+}
+
+#saurav1{ 
+ margin-left: -100px;
+ margin-right: -10px;
+}
+#saurav2{
+
+margin-left: -50px;
+}
+#saurav3{
+
+margin-left: -170px;
+}
+#saurav4{
+
+margin-left: -230px;
+}
+#saurav5{
+
+margin-left: -290px;
+}
+
+#saurav7{
+margin-left: -150px;
+text-align: left;
+margin-top: 19.5px;
+}
+
+#ls{
+margin-left:15px;
+background-color: white;
+color:hotpink;
+font-weight: 600;
+height:40px;
+border:1px solid rgb(233, 233, 233);
+}
+
+#ls>a{
+color:rgb(249, 43, 108);
+font-size: 12px;
+font-weight: 700;
+padding: 3px;
+}
+
+#ls:hover{
+border:1px solid hotpink;
+transition:.5s;
+}
+
+
+
+#lp{
+margin-left:15px;
+font-size: 14px;
+}
+
+#lh5{
+text-align: left;
+padding-left:15px;
+font-size: 14px;
+font-weight: 650;
+color: rgb(51, 52, 53);
+margin-top: 30px;
+
+}
+#lh5:hover{
+color:hotpink;
+}
+
+#insider_span{
+background-color: rgb(247, 74, 160);
+color:white;
+border:0;
+height: 30px;
+margin-left: 15px;
+border-radius: 0px 5px 5px 5px;
+  
+}
+
+#i1{
+font-size: 17px;
+color:rgb(0, 0, 0);
+/* margin-bottom:9px; */
+
+
+}
+
+#i2{
+font-size: 17px;
+color:rgb(0, 0, 0);
+
+
+}
+
+#profile_tag{
+text-decoration: none;
+margin:auto;
+font-size: 17px;
+color:black;
+
+}
+
+#profile_tag>a:hover{
+border-bottom: 4px solid #ee5f73;
+padding-bottom: 13px;
+}
+
+
+#profile_tag>a{
+font-size: 12px;
+ color:black;
+ text-decoration: none;
+ font-weight: 550;
+ line-height: 2px;
+
+}
+#wishlist_tag,#cart_tag{
+font-size:12px;
+margin: auto;
+text-decoration: none;
+color:black;
+font-weight: 550;
+
+}
+
+
+#main_div:hover div{
+visibility: visible;
+opacity:1;
+
+}
+
+
+.an_div>a{
+display: block;
+text-decoration: none;
+color :black;
+background-color: white;
+transition: 0.3s;
+white-space: nowrap;
+}
+
+.an_div>a:hover{
+background-color: hotpink;
+}
+
+#b{
+display:flex;
+}
+
+
+
+#d1{
+margin-left: 20px;
+}
+
+#d2,#d3,#d4,#d5,#d6{
+margin-left: 30px;
+}
+
+
+
+#d6{
+margin-right: 20px;
+}
+
+.h5{
+margin-left:18px;
+font-size: 14px;
+cursor: pointer;
+margin-top: 17px;
+
+}
+.h5>a{
+text-decoration: none;
+/* color: hotpink; */
+margin-left: 12px;
+
+
+}
+
+ul>li{
+line-height:26px;
+list-style-type: none;
+
+}
+ul>li>a{
+text-decoration: none;
+color:black;
+font-size: 14px;
+}
+
+ul>li>a:hover{
+color: rgb(0, 0, 0);
+font-weight: 640;
+/* transition: .2s; */
+}
+
+#b{
+margin-right: 35px;
+margin-bottom: 20px;
+
+}
+
+
+#count_wish,#count_cart{
+font-size:10px;
+}
+
+
+#logincss{
+text-decoration: none;
+color:hotpink;
+}
+
+sup{
+color:rgb(250, 39, 145);
+margin-left: 2px;
+font-size:10px;
+font-weight: 700;
+}
+
+
+.d1{
+display: flex;
+ 
+}
+.d1>div{
+padding: 10px;
+}
+ 
+
+/* navbar css ends  */
+
+/* ------------------------------------------------------------------- */
