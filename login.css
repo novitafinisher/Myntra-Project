@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(252, 236, 239);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body input{
+    outline: none;
+}
+#navbar{
+    background-color: white;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 80px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#menu{
+    width: 40%;
+    margin-left: 4%;
+    cursor: pointer;
+}
+#menu a{
+    display: flex;
+    align-items: center;
+    color: rgb(7, 3, 32);
+    font-weight: 650;
+    font-size: 12px;
+}
+#menuDetail{
+    display: flex;
+    margin-left: 12%;
+    gap: 35px;
+}
+#img{
+    width: 10%;
+    align-self: center;
+}
+#searchBox{
+    display: flex;
+    margin-left: 9%;
+    width: 30%;
+    background-color: #f5f5f6;
+    height: 50%;
+    align-items: center;
+    border-radius: 3px;
+}
+#searchBox img{
+    width: 4%;
+    margin: 4%;
+}
+#search {
+    width: 100%;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f5f5f6;
+}
+#profile{
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+#acc{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-left: 15px;
+}
+a{
+    text-decoration: none;
+}
+#wish{
+    height: 25px !important;
+    margin-left: 8px;
+}
+#bag{
+    height: 20px;
+}
+#p1{
+    margin-top: -2px;
+    font-size: small;
+    color: black;
+    font-weight: 600;
+}
+#p2{
+    margin-top: 2px;
+    font-size: small;
+    color: black;
+    font-weight: 600; 
+}
+#main{
+    margin-top: 8%;
+    width: 30%;
+    height: 530px;
+    margin-left: 35%;
+    background-color: white;
+}
+#shipping img{
+    width: 100%;
+}
+#loginUP{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#phone{
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+#numDetail{
+    color: rgb(236, 37, 70);
+    font-size: small;
+}
+#btn{
+    background-color: rgb(247, 74, 103);
+    width: 100%;
+    border: none;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: white;
+    cursor: pointer;
+}
+#loginUP h5{
+    color: rgb(165, 157, 157);
+}
+#loginUP h5 span{
+    color: rgb(247, 74, 103);
+}
+@media only screen and (max-width: 500px) {
+    #main_container{
+        display: none;
+    }
+    #main{
+        margin-left: 0%;
+        margin-top: 0%;
+        width: 100%;
+    }
+}
