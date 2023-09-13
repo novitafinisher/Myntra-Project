@@ -1,0 +1,42 @@
+
+body, html {
+    font-family: Assistant,Helvetica,Arial,sans-serif!important;
+}
+
+.bag-header {
+    display: flex;
+    justify-content: space-around ;
+    background-color: wheat;
+    border-bottom: 1px solid #F5F5F6;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.bag-header .header-steps {
+    margin: 0 0 0 34%;
+    width: 40%;
+    color: #696B79;
+    padding: 0;
+    display: inline-block;
+    line-height: 20px;
+}
+
+.header-steps >ul {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.secure-container {
+    display: flex;
+}
+
+.bag-footer {
+    justify-content: center;
+    display:flex;
+    margin: auto;
+}
+
+.bag-footer  a {
+    float: right;
+}
