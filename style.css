@@ -174,7 +174,7 @@ header >* {
     justify-content: space-around;
     align-items: flex-end;
     border-radius: 1.5rem;
-    cursor: default;
+    cursor: pointer;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition: all 500ms;
@@ -540,7 +540,7 @@ header >* {
     }
 
     #reggDropdown > #drop{
-        background-color: rgb(227, 224, 224);
+        background-color: rgb(255, 255, 255);
         box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
     }
     
@@ -572,20 +572,19 @@ header >* {
         position: absolute;
         top: 100%;
         right: 0%;
-        background-color: rgb(227, 224, 224);
+        background-color: rgb(255, 255, 255);
         overflow: auto;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
-        transition: all 500ms ease-in-out;
+        transition: all 500ms ease;
         display: flex;
         flex-direction: column;
         box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
-        border-bottom-right-radius: 2rem;
-        border-bottom-left-radius: 2rem;
+
       }
       .dropdown-content .top{
           padding: 0 0.5rem;
-          background-color: rgb(227, 224, 224);
+          background-color: rgb(255, 255, 255);
       }
       .dropdown-content .bottom{
           display: none;
@@ -608,6 +607,7 @@ header >* {
       .dropdown-content a:hover{
         background-color: #ffe5e9;
         border-radius: 1rem;
+        /* border: 1px solid black; */
       }
       .show {
           width: 300px;
@@ -754,7 +754,7 @@ footer section, footer hr{
         position: absolute;
         top: 100%;
         right: 0%;
-        background-color: rgb(227, 224, 224); 
+        background-color: rgb(255, 255, 255); 
         overflow: auto;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
@@ -762,12 +762,11 @@ footer section, footer hr{
         display: flex;
         flex-direction: column;
         box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
-        border-bottom-right-radius: 2rem;
-        border-bottom-left-radius: 2rem;
+      
       }
       .dropdown-content .top{
           padding: 0 0.5rem 1.3rem;
-          background-color: rgb(227, 224, 224);
+          background-color: rgb(255, 255, 255);
       }
       .dropdown-content .bottom{
           display: flex;
@@ -775,8 +774,8 @@ footer section, footer hr{
           justify-content: space-evenly;
           font-size: 2.5rem;
           padding: 1.5rem 0;
-          background-color: rgb(227, 224, 224);
-          color: #52101b;
+          background-color: rgb(255, 255, 255);
+          color: #000000;
       }
 
       .dropdown-content .bottom  i{
