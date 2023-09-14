@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #FDEEEB;
+}
+
+.main{
+    width: 350px;
+     margin: auto;
+     margin-top: 40px;
+     font-family: 'Bricolage Grotesque', sans-serif;
+     background-color: white;
+     padding: 60px;
+     height: 500px;
+ }
+
+ h3{
+    letter-spacing: 1px;
+ }
+ 
+  a{
+    color: #FF3F6C;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+ /* otp input */
+
+ .otp-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .otp-field {
+    width: 2rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .otp-field:focus {
+    outline: none;
+    border-color: #ffbeb1;
+  }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/otp.css">
+    <link rel="stylesheet" href="../style/navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos:wght@300&family=REM:wght@900&family=Roboto:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Genos:wght@300&family=Kanit:wght@300&family=REM:wght@900&family=Roboto:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+    <div class="main">
+        <p  style="color:white;background-color: #FF3F6C;padding: 5px;text-align: center;margin-bottom: 40px;">YOUR OTP IS : <span id="secure_otp" style="letter-spacing: 4px;" id="">0000</span></p>
+        <img width="100px" src="./otp.svg" alt="">
+        <h3>Verify with OTP</h3>
+        <p style="opacity: 0.7;">sent to <span id="numb"></span></p>
+        <br>
+        <form>
+            <div class="otp-input">
+                <input required type="text" pattern="[0-9]" inputmode="numeric" maxlength="1" class="otp-field" />
+                <input required type="text" pattern="[0-9]" inputmode="numeric" maxlength="1" class="otp-field" />
+                <input required type="text" pattern="[0-9]" inputmode="numeric" maxlength="1" class="otp-field" />
+                <input required type="text" pattern="[0-9]" inputmode="numeric" maxlength="1" class="otp-field" />
+                <button style="border: none;border-radius : 20px;font-size: 15px;text-align: center;background-color: #FF3F6C; margin-left: 20px;color: aliceblue;padding: 10px;">SUBMIT</button>
+            </div>
+            <p id="not_valid" style="color: red;font-size: 13px;padding-left: 10px;display: none;">Enter a vaild OTP</p>
+        </form>
+        <br>
+        <p style="opacity: 0.9;font-size: smaller;">Resend OPT in: <span id="timmer" style="color: #FF3F6C;">00:10</span><a style="display: none;opacity: 1;" id="resend" href="#"> Resend</a></p>
+        <br>
+        <p style="font-size: 15px;opacity: 0.9;">Log in using <a href="./PassWord.html">Password</a></p>
+        <p style="font-size: 15px;margin-top: 35px;opacity: 0.9;">Having trouble logging in? <a href="">Get Help</a></p>
+    </div>
+</body>
+<script src="./script/otp.js"></script>
+</html>
