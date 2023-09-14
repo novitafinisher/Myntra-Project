@@ -155,6 +155,10 @@ header >* {
     font-size: 2rem;
 }
 
+.font > a {
+    color: #000000;
+}
+
 
 /* PROFILE DROPDOWN MENU */
 #reggDropdown{
@@ -198,11 +202,12 @@ header >* {
         
     }
     #reggDropdown:hover > #drop .dropList{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     #reggDropdown a:hover{
-        background-color: #ff8fe7; 
+        background-color: #ff2164; 
+        color: white;
     }
 
 
