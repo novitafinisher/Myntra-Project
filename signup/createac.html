@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/createac.css">
+    <link rel="stylesheet" href="../style/navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos:wght@300&family=REM:wght@900&family=Roboto:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Genos:wght@300&family=Kanit:wght@300&family=REM:wght@900&family=Roboto:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+    <div class="main">
+        <div class="bottom_container">
+            <h3>Create your Account</h3>
+            <br>
+            <form>
+            <div class="inputbox">
+                <input type="email" required="required" id="email">
+                <span>Email Id</span>
+                <br>
+                <br>
+            </div>
+            <div class="inputbox">
+                <input type="text" required="required" id="pass">
+                <span>Password</span>  
+                <br>
+                <br>
+            </div>
+            <div class="inputbox">
+                <input type="password" required="required" id="re_pass">
+                <span>Re-enter-Password</span>  
+            </div>
+            <p style="display:none;font-size:  10px;color: red;padding-left: 5px;">Wrong password</p>
+            <br>
+            <br>
+            <p id="mis_match" style="font-size: 12px; color: red;display: none;">Password not matching</p>
+            <p id="id_exist" style="font-size: 12px; color: red;display: none;">Email id Already exist</p>
+            <button class="button" type="submit">CONTINUE</button>
+            </form>
+            <p style="font-size: 12px;" >Have trouble logging in ? <a style="color: #FF3F6C;text-decoration: none;font-weight: 700;" href="">Get help</a></p>
+        </div>
+    </div>
+</div>
+</body>
+<script src="./script/createac.js"></script>
+  </script>
+</html>
