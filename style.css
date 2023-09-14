@@ -187,8 +187,8 @@ header >* {
     text-decoration: none;
     color: unset;
     display: inline-block;
-    text-align: right;
-    padding: 1.5rem;
+    text-align: center;
+    padding: 10px;
     margin-top: 1rem;
     transition: all 500ms; 
 }
