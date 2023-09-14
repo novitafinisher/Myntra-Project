@@ -668,16 +668,7 @@ footer section, footer hr{
 }
 
 
-/* WOMENS_HOMEPAGE */
-#topBrand_women{
-    grid-template-columns: repeat(3, 1fr);
-}
-.categoryBag_women{
-    grid-template-columns: repeat(3, 1fr);
-}
-#explore_more_women :nth-child(4), #explore_more_women :nth-child(5){
-    display: none;
-}
+
 
 .forWeb{
     display: none;
@@ -873,29 +864,6 @@ footer section, footer hr{
         display: none;
     }
 
-
-    /* WOMEN SECTION */
-    #topBrand_women{
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .categoryBag_women{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .categoryBag_women :nth-child(4),.categoryBag_women :nth-child(5){
-        display: none;
-    }
-
-     #explore_more_women :nth-child(5){
-        display: none;
-    }
-
-    .forWeb{
-        display: none;
-    }
-    .forMob{
-        display: none
-    }
 }
 
 
