@@ -1,0 +1,116 @@
+
+*{
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+body, html {
+    font-family: Assistant,Helvetica,Arial,sans-serif!important;
+    box-sizing: border-box;
+}
+
+.bag-header {
+    display: flex;
+    justify-content: space-between ;
+    /* background-color: wheat; */
+    border-bottom: 1px solid #F5F5F6;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px
+}
+
+.header-steps {
+    /* margin: 0 0 0 34%; */
+    max-width: 400px;
+    color: #696B79;
+    padding: 0;
+    display: inline-block;
+    line-height: 20px;
+}
+
+.secure-container {
+    display: flex;
+}
+
+    /* Middle Part */
+
+.bag-body{
+    min-height: 80vh;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px
+}
+.bag-body1{
+    display: flex;
+}
+.bag-body-left{
+    background-color: antiquewhite;
+    width: 60%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px
+}
+.bag-body-right{
+    background-color: antiquewhite;
+    width: 36%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px
+}
+.hiddenOffers {
+    list-style: disc;
+    display: none;
+}
+
+.cart-availabe-offers:hover  .hiddenOffers {
+    /* background-color: red; */
+    display: block;
+}
+
+a{
+    color: #FF3F6C;
+    text-decoration: none;
+}
+
+/* .order-box p{
+    width:100%;
+} */
+
+.total-price, .amount-pay, .discount {
+    margin-top: 0px;
+    float: right;
+    /* color: #FF3F6C; */
+}
+
+button{
+    color:white;
+    background-color: #FF3F6C;
+    border: none;
+    padding: 5px ;
+}
+#place-order{
+    width:90%;
+    margin-left:5%;
+}
+.bag-footer{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin-bottom: 10px;
+}
+.bag-footer-images {
+    justify-content: center;
+    display:flex;
+    margin: auto;
+}
+
+.bag-footer  a {
+    /* display: inline; */
+    float: right;
+}
+
+@media only screen and (max-width : 750px) {
+    .header-steps{
+        display: none;
+    }
+    .bag-body1{
+        display: block;
+    }
+    .bag-body-left , .bag-body-right{
+        width: 90%;
+    }
+}
