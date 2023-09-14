@@ -124,7 +124,7 @@ header >* {
     background-color: #f5f5f6;
     border: no;
     border-radius: 0.6rem;
-    color: #ffffff;
+    color: #000000;
     letter-spacing: 0.5px;
 }
 #search > #search_bar:focus{
