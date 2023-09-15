@@ -95,7 +95,7 @@ var anchors_para = [
   var z = document.querySelectorAll('img');
   for(let i=0; i<z.length; i++){
       z[i].addEventListener('click', function(){
-          window.location.href = "#"
+          window.location.href = "../homelivingproduct/homeproduct.html"
       })
   }
   
