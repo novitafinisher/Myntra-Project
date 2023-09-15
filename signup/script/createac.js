@@ -27,10 +27,13 @@ form.addEventListener("submit",function(el){
 
         if(flag){
             id_exist.style.display = "block";
-            window.location.assign("./index.html");
+            // window.location.assign("../index.html");
+            // window.location.assign("./login.html");
+
             
       
-        }else{
+        }
+        else{
             var obj = {
                 mobile_num : mob_num,
                 email_id : el.target.email.value,
@@ -43,7 +46,7 @@ form.addEventListener("submit",function(el){
 
             localStorage.setItem("status",true);
         
-            window.location.assign("../index.html");
+            window.location.assign("../Homepage/index.html");
         }
     }
 })

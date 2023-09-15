@@ -23,11 +23,11 @@ form.addEventListener("submit",function(el){
     if(flag && obj.pas_code == pass_code.value){
         alert_ac.style.display = "none";
         localStorage.setItem("status",true);
-        window.location.assign("./index.html");
+        window.location.assign("../Homepage/index.html");
     }
     else{
         // alert_ac.style.display = "block";
-        window.location.assign("./index.html");
+        window.location.assign("../Homepage/index.html");
     }
 })
 
