@@ -1,4 +1,4 @@
- // <!-- COROUSEL SCRIPT -->
+
  var counter = 1;
  setInterval(function(){
  document.getElementById('radio' + counter).checked = true;

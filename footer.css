@@ -11,8 +11,7 @@
     grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(1,auto);
     line-height: 20px;
-    grid-template-areas:
-        "a b c d" ;
+    grid-template-areas:"a b c d" ;
         
 }
 #a :nth-child(1){
