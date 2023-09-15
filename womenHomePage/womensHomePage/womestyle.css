@@ -540,7 +540,6 @@ input[type="radio" i] {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-end;
-    border-radius: 1.5rem;
     cursor: default;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -553,7 +552,6 @@ input[type="radio" i] {
     color: unset;
     display: inline-block;
     text-align: right;
-    border-radius: 1rem;
     padding: 1.5rem;
     margin-top: 1rem;
     transition: all 500ms;
