@@ -7,6 +7,7 @@ var mis_match = document.getElementById("mis_match");
 var userInfo = JSON.parse(localStorage.getItem("userInfo")) || [];
 var mob_num = JSON.parse(localStorage.getItem("temp_mobile"));
 
+let login_part = JSON.parse(localStorage.getItem("loginkey"))||{};
 
 form.addEventListener("submit",function(el){
     el.preventDefault();
@@ -29,9 +30,6 @@ form.addEventListener("submit",function(el){
             id_exist.style.display = "block";
             // window.location.assign("../index.html");
             // window.location.assign("./login.html");
-
-            
-      
         }
         else{
             var obj = {
@@ -45,7 +43,9 @@ form.addEventListener("submit",function(el){
             localStorage.setItem("userInfo",JSON.stringify(userInfo));
 
             localStorage.setItem("status",true);
-        
+            login_part.email = obj.email_id;
+            login_part.status = "loggedIn";
+            localStorage.setItem("loginkey",JSON.stringify(login_part));
             window.location.assign("../Homepage/index.html");
         }
     }

@@ -6,6 +6,7 @@ localStorage.setItem("status",JSON.stringify(false));
 // /////////////
 
 // navbar.js
+let login_part = JSON.parse(localStorage.getItem("loginkey"))||{};
 
 document.addEventListener("DOMContentLoaded", function () {
   const navbarPlaceholder = document.getElementById("navbar-placeholder");
