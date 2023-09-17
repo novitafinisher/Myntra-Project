@@ -266,3 +266,11 @@ footer section, footer hr{
     width: 70%;
 }
  }
+
+
+ #drop >a:nth-child(1), #drop >a:nth-child(2){
+    display: none;
+ }
+ #drop >a:nth-child(3),#drop >a:nth-child(4){
+    display: none;
+ }

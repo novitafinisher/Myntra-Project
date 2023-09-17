@@ -103,3 +103,5 @@ var anchors_para = [
   document.getElementById('landingPage').addEventListener('click', function(){
       window.location.href = "../HOMEPAGE/index.html"
   })
+
+  

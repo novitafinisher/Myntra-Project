@@ -50,10 +50,12 @@ body{
     background-color: #535766;
     color: #fff;
     letter-spacing:1px;
+    cursor: pointer;
 }
 #sidePanel{
     font-size:30px;
     color: #fcfcfc;
+    cursor: pointer;
 }
 #flatdiscount>h1{
     writing-mode: vertical-lr;
@@ -63,6 +65,7 @@ body{
     font-size: 20px;
     font-weight: bolder;
     color: #fcfcfc;
+    cursor: pointer;
    
 }
 body>h1{
