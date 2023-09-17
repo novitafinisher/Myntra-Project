@@ -122,9 +122,9 @@ header >* {
     padding: 1.7rem;
     padding-left: 7rem;
     background-color: #f5f5f6;
-    border: none;
+    border: no;
     border-radius: 0.6rem;
-    color: #696e79;
+    color: #000000;
     letter-spacing: 0.5px;
 }
 #search > #search_bar:focus{
@@ -155,70 +155,59 @@ header >* {
     font-size: 2rem;
 }
 
+.font > a {
+    color: #000000;
+}
+
 
 /* PROFILE DROPDOWN MENU */
 #reggDropdown{
     position: relative;
 }
 #reggDropdown > #drop{
-    width: 20rem;
+    width: 24rem;
     height: 0;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
     position: absolute;
     top: 100%;
     right: 0;
     visibility: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-end;
-    /* cursor: default; */
-    /* background-color: #fff; */
+    /* justify-content: space-around; */
+    align-items: flex-start;
     cursor: pointer;
     background-color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition: all 500ms;
 }
-
-/* .font>a{
-    text-decoration: none;
-    color:black;
-
-} */
-
 #reggDropdown a{
     width: 85%;
     text-decoration: none;
     color: unset;
-    display: inline-block;
-    /* text-align: right; */
-     text-align: center;
-    /* border-radius: 1rem; */
-    /* padding: 1.5rem; */
-    padding:10px;
+    font-size: 10px;
+    /* display: inline-block; */
+    padding: 10px;
     margin-top: 1rem;
-   
-    transition: all 500ms;
-    
+    transition: all 500ms; 
 }
     #reggDropdown:hover #drop{
         visibility: visible;
-        width: 20rem;
+        width: 24rem;
         height: 15rem;
+        margin-left: -10px;
     }
     #reggDropdown > #drop .dropList{
         font-size: 0;
+        
     }
     #reggDropdown:hover > #drop .dropList{
-        /* font-size: 2rem; */
-        font-size: 1.8rem;
+        font-size: 15px;
     }
 
     #reggDropdown a:hover{
-        /* background-color: #f8d7cf;  */
         background-color: #ff2164; 
-        color:white
+        width: 24rem;
+        color: white;
     }
 
 
@@ -236,9 +225,8 @@ header >* {
     overflow: hidden;
   }
   
-  /* made change from 500% to 900% */
   #slides{
-    width: 500%;  
+    width: 500%;
     height: 100%;
     display: flex;
   }
@@ -299,7 +287,6 @@ header >* {
   }
   
   
-
   /* BRAND SECTION */
   .brand_heading{
     font-size: 3rem;
@@ -513,7 +500,6 @@ header >* {
   @media all and (min-width: 551px) and (max-width: 850px) {
       
     /* NAVBAR */
-
     header{
         justify-content: unset;
         padding: 0 2rem;
@@ -622,7 +608,7 @@ header >* {
       }
       
       .dropdown-content a:hover{
-        background-color: #ffffff;
+        background-color: #ffe5e9;
         border-radius: 1rem;
         /* border: 1px solid black; */
       }
@@ -630,65 +616,6 @@ header >* {
           width: 300px;
           height: 300px;
     }
-
-    /* TOGGLE MENU */
-    .dropbtn {
-        padding: 16px;
-        border: none;
-        cursor: pointer;
-      }
-      
-      .dropdown {
-        position: relative;
-        display: inline-block;
-      }
-      
-      .dropdown-content {
-        width: 0;
-        height: 0;
-        position: absolute;
-        top: 100%;
-        right: 0%;
-        background-color: #ffffff;
-        overflow: auto;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-        transition: all 500ms ease-in-out;
-        display: flex;
-        flex-direction: column;
-        box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
-      
-      }
-      .dropdown-content .top{
-          padding: 0 0.5rem;
-          background-color: #ffffff;
-      }
-      .dropdown-content .bottom{
-          display: none;
-      }
-      
-      .dropdown-content a {
-        color: var(--primaryColor);
-        width: 89%;
-        margin: auto;
-        padding: 1.2rem 2rem;
-        text-decoration: none;
-        display: block;
-        font-size:1.6rem;
-        letter-spacing: 0.5px;
-        font-weight: 700;
-        text-transform: uppercase;
-        text-align: right;
-      }
-      
-      .dropdown-content a:hover{
-        background-color: #ffffff;
-        border-radius: 1rem;
-      }
-      .show {
-          width: 300px;
-          height: 300px;
-    } 
 
     /* SLIDER COROUSEL SECTION */
     .slider{
@@ -741,16 +668,7 @@ footer section, footer hr{
 }
 
 
-/* WOMENS_HOMEPAGE */
-#topBrand_women{
-    grid-template-columns: repeat(3, 1fr);
-}
-.categoryBag_women{
-    grid-template-columns: repeat(3, 1fr);
-}
-#explore_more_women :nth-child(4), #explore_more_women :nth-child(5){
-    display: none;
-}
+
 
 .forWeb{
     display: none;
@@ -873,7 +791,7 @@ footer section, footer hr{
       }
       
       .dropdown-content a:hover{
-        background-color: #ffffff;
+        background-color: #ffe5e9;
         border-radius: 1rem;
       }
       .show {
@@ -946,29 +864,6 @@ footer section, footer hr{
         display: none;
     }
 
-
-    /* WOMEN SECTION */
-    #topBrand_women{
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .categoryBag_women{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .categoryBag_women :nth-child(4),.categoryBag_women :nth-child(5){
-        display: none;
-    }
-
-     #explore_more_women :nth-child(5){
-        display: none;
-    }
-
-    .forWeb{
-        display: none;
-    }
-    .forMob{
-        display: none
-    }
 }
 
 

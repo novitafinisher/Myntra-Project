@@ -165,18 +165,16 @@ header >* {
     position: relative;
 }
 #reggDropdown > #drop{
-    width: 20rem;
+    width: 24rem;
     height: 0;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
     position: absolute;
     top: 100%;
     right: 0;
     visibility: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-end;
+    /* justify-content: space-around; */
+    align-items: flex-start;
     cursor: pointer;
     background-color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -186,27 +184,29 @@ header >* {
     width: 85%;
     text-decoration: none;
     color: unset;
-    display: inline-block;
-    text-align: center;
+    font-size: 10px;
+    /* display: inline-block; */
     padding: 10px;
     margin-top: 1rem;
     transition: all 500ms; 
 }
     #reggDropdown:hover #drop{
         visibility: visible;
-        width: 20rem;
+        width: 24rem;
         height: 15rem;
+        margin-left: -10px;
     }
     #reggDropdown > #drop .dropList{
         font-size: 0;
         
     }
     #reggDropdown:hover > #drop .dropList{
-        font-size: 1.8rem;
+        font-size: 15px;
     }
 
     #reggDropdown a:hover{
         background-color: #ff2164; 
+        width: 24rem;
         color: white;
     }
 
