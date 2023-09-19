@@ -866,4 +866,9 @@ footer section, footer hr{
 
 }
 
+.font>a {
+    text-decoration: none;
+}
+
+
 

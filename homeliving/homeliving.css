@@ -4,6 +4,10 @@
     margin-top: 15rem;
     width: 100%;
 }
+.font>a {
+    text-decoration: none;
+}
+
 #banner > div{
     width: 93%;
     height: 400px;

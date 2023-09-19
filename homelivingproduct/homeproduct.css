@@ -9,6 +9,9 @@
     padding: 10px 20px;
   }
 
+  .font>a {
+    text-decoration: none;
+}
 
 
 *{

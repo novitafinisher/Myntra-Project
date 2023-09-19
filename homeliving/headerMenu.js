@@ -21,7 +21,7 @@ function myFunction() {
   
   //<---------- HYPERLINK FOR PROFILE ---------->//
   document.getElementById('profile').addEventListener('click', function(){
-      window.location.href = "index.html"
+      window.location.href = "../Homepage/index.html"
   })
   
 

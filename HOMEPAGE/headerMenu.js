@@ -32,7 +32,7 @@ function myFunction() {
   
   //<---------- HYPERLINK FOR PROFILE ---------->//
   document.getElementById('profile').addEventListener('click', function(){
-      window.location.href = "/Profile/signup.html"
+      window.location.href = "../Homepage/index.html"
   })
   
 

@@ -215,7 +215,9 @@ header >* {
    display: none;
 }
 
-
+.font>a {
+    text-decoration: none;
+}
 
 /* COROUSEL SECTION */
 .slider{
