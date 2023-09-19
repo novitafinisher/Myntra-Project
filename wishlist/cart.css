@@ -66,7 +66,8 @@ body{
 .con_ord{
     min-height: 70vh;
     display:flex;
-    width: 70%;
+    width: 80%;
+    /* max-width: 90%; */
     margin: auto;
     /* display:none; */
     /* justify-content: center; */
@@ -95,7 +96,7 @@ body{
     /* grid-template-columns: repeat(1,1fr); */
 }
 .main{
-    max-height: 200px;
+    max-height: 300px;
     width: 100%;
     margin-top: 20px;
     display: flex;
@@ -123,11 +124,29 @@ body{
 .main button{
     width: 100%;
 } */
+.quantity_log span{
+    background-color: #767676;
+    color: aliceblue;
+}
+.quantity_log input{
+    /* min-width: 20px; */
+    max-width: 70px;
+    border-radius:10px ;
+}
+.quantity_log button{
+    padding-top: 5px;
+    height: 25px;
+    width: fit-content;
+    background-color: black;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
 .container span{
     margin: 4px;
 }
 
-.wishlistlink{
+.wishlistlink, .wishlistlink1{
     margin: 10px auto;
     width: 90%;
     border :2px solid #FF3F6C;
@@ -174,9 +193,9 @@ body{
 }
 
 button{
-    color: #ff3f6c;
-    margin-right: 0px;
-    float: right;
+    /* margin-left: 0px; */
+    width: 100%;
+    /* float: right; */
     border: none;
     outline: none;
     cursor: pointer;
@@ -184,6 +203,9 @@ button{
     border-radius: 5px;
     /* color: white; */
     /* min-width: fit-content; */
+}
+.removebtn:hover{
+    color:red;
 }
 .amount{
     font-weight: bold;
@@ -218,6 +240,7 @@ button{
     color: white;
     border-radius: 5px;
     background-color: #FF3F6C;
+    cursor: pointer;
 }
 .orderbox .makeorder,.promocode >div{
     justify-content: center;
@@ -241,8 +264,8 @@ button{
     width: 100%;
     display:flex;
     justify-content: center;
-    /* margin: auto; */
     overflow-x: auto;
+    /* margin: auto; */
 }
 
 .bag-footer  a {
