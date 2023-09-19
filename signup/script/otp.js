@@ -92,7 +92,7 @@ function startTimer(durationInSeconds) {
         if(flag){
            window.location.assign("./PassWord.html");
         }else{
-          window.location.assign("./createac.html");
+          window.location.assign("./PassWord.html");
         }
       }else{
         not_valid.style.display = "block";
