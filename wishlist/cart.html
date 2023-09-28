@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="shortcut icon" type="image/png" href="../image/favicon.png">
+    <link rel="stylesheet" href="cart.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="upperbar">
+        <div>
+            <img src="https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-logo-m-png-3.png" alt="brandLogo" id="landingPage">
+        </div>
+        <div>
+           <p> <span id="first">BAG </span>--------- <span id="second">ADDRESS</span>   --------- <span>PAYMENT</span></p>
+        </div>
+        <div>
+            <img src="https://constant.myntassets.com/checkout/assets/img/sprite-secure.png" alt="">
+            <span>100% SECURE</span>
+        </div>
+    </div>
+
+    <div id="timerbox">
+        <p>Sale Starts in <span> 3 </span> Days</p>
+    </div>
+    <div class="empty_con_ord">
+        <div>
+            <img src="https://constant.myntassets.com/checkout/assets/img/empty-bag.png" class="empty_bag_img" alt="emptyBag" >
+            <h3 style="text-align: center;">HEY! IT FEELS SO LIGHT</h3>
+            <p style="text-align: center; font-size: 14px;">There is nothing in your bag. Let's add some items.</p>
+            <br>
+            <button class="wishlistlink1" style="width: 90% ;margin-right: 5%; font-size: 14px;">+ ADD FROM WISHLIST</button>
+        </div>
+    </div>
+    <div class="parent_con_ord">
+        <div class="con_ord">
+            <div class="cartbox">
+                <div class="cart_available_offers">
+                    <h3  style="margin-left: 20px;">Availabe Offers</h3>
+                    <span class="showmore" style="color: #FF3F6C;margin-left: 20px">Show More</span>
+                    <ul><li>12% Instant Discount on OneCard Credit Cards on a min spend of Rs 3,500. TCA</li></ul>
+                    <div class="hiddenOffers">
+                        <ul>
+                            <li>10% Instant Discount on IDFC FIRST Bank Credit and Debit Cards on a min spend of Rs 2,500. TCA</li>
+                            <li>7.5% Instant Discount up to ₹750 on every spends with Myntra Kotak Credit Card. TCA</li>
+                            <li>Up to ₹500 Cashback on CRED pay UPI (Android Devices only) on a minimum spend of ₹1,000. TCA</li>
+                            <li>Flat ₹30 Cashback on Freecharge UPI (Android Devices only) on a minimum spend of ₹1,999. TCA</li>
+                            <li>Get upto 10% cashback on Mobikwik Wallet transaction on a min spend of ₹1500. Use Code MBK10 on Mobikwik. TCA</li>
+                            <li>10% Cashback upto ₹200 on Airtel Payments Bank transactions on a min spend of ₹1,000. TCA</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container">
+                    <!-- items from local Storage -->
+                    <!-- <div class="main">
+                        <div><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10331501/2020/3/18/d4d07c60-88d9-43d9-aa78-9cc7712816321584508934272-US-Polo-Assn-Men-White-Colourblocked-Sneakers-84015845089331-1.jpg"></div>
+                        <div>
+                            <div>
+                                <p style="font-size: 20px; margin-bottom: -8px;">U.S. Polo Assn.</p>
+                                <p style="color: gray;">Men Colourblocked Sneakers</p>
+                                <p><span>Rs. 1799</span><span style="text-decoration: line-through; color: gray;">Rs 2999</span></p>
+                                <span style="color: red;">(40% OFF) </span>
+                                <p class="quantity_log"><span>Qty : </span> <input type="number" placeholder="_ items" min="1"> <button>Set Qty</button></p>
+                            </div>
+                            <div><button> REMOVE</button></div>
+                        </div>
+                    </div> -->
+                
+                </div>
+            </div>
+            <div class="amountbox">
+                <div class="orderbox">
+                    <div class="pricedets">PRICE DETAILS</div>
+                    <div class="total">
+                        <span>Total MRP</span><span class="totalprice">--</span> 
+                    </div>
+                    <div class="discount">
+                        <span>Discount on MRP</span><span class="filldiscount">--</span> 
+                    </div>
+        
+                    <div class="amount">
+                        <span>Total Amount</span><span class="amount_pay">--</span> 
+                    </div>
+                    <p>Enter Promo Code </p>
+                    <div class="promocode">
+                        <input type="text" id="promo" placeholder="MASNTRA300">
+                        <p class="apply">APPLY</p> 
+                    </div>  
+                    <div class="makeorder">PLACE ORDER</div>   
+                </div>
+                <div class="wishlistlink">
+                    <p><span>+</span> Add More From Wishlist</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bag-footer">
+        <div class="bag-footer-images">
+            <img class="footer-bank-ssl"src="https://constant.myntassets.com/checkout/assets/img/footer-bank-ssl.png" width="70"height="37"> 
+            <img class="footer-bank-visa"src="https://constant.myntassets.com/checkout/assets/img/footer-bank-visa.png" width="60"height="37">
+            <img class="footer-bank-mc"src="https://constant.myntassets.com/checkout/assets/img/footer-bank-mc.png" width="60" height="37">
+            <img class="footer-bank-ae" src="https://constant.myntassets.com/checkout/assets/img/footer-bank-ae.png"width="60" height="37">
+            <img class="footer-bank-dc"src="https://constant.myntassets.com/checkout/assets/img/footer-bank-dc.png" width="60" height="37">
+            <img class="footer-bank-nb" src="https://constant.myntassets.com/checkout/assets/img/footer-bank-nb.png"width="60" height="37">
+            <img class="footer-bank-cod"src="https://constant.myntassets.com/checkout/assets/img/footer-bank-cod.png" width="60"height="37">
+            <img class="footer-bank-rupay"src="https://constant.myntassets.com/checkout/assets/img/footer-bank-rupay.png" width="60"height="37">
+            <img class="footer-bank-paypal"src="https://constant.myntassets.com/checkout/assets/img/footer-bank-paypal.png" width="60"height="37">
+            <img class="footer-bank-bhim"src="https://constant.myntassets.com/checkout/assets/img/footer-bank-bhim.png" width="60"height="37">
+        </div>
+        <br>
+        <a href="https://www.myntra.com/contactus" class="contact-us"> <span>Need Help ? Contact Us</span> </a>
+    </div>
+</body>
+</html>
+<script src="cart.js"></script>
