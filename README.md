@@ -8,15 +8,15 @@ we learned a lot while working on this project. we failed so many times and we n
 
 **Team-Members.**
 
-Poorvi Thakur.
+Poorvi Thakur.(https://github.com/Poorvi0807)
 
-Saurav Chavan.
+Saurav Chavan. (https://github.com/Saurav9284)
 
-Pankaj Khatri.
+Pankaj Khatri. (https://github.com/MrPK4699)
 
-Avijit Sharma.
+Avijit Sharma. (https://github.com/AvijitSharma123)
 
-Gaurav Bhadoriya.
+Gaurav Bhadoriya. (https://github.com/novitafinisher)
 
 **In the construct week.**
 
