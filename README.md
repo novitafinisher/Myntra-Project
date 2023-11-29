@@ -2,6 +2,10 @@
 
 *Myntra clone.*
 
+**Deployed Link**
+
+https://idyllic-zabaione-cafdda.netlify.app/
+
 
 First of all, I want to thank the Masai school for giving me this opportunity to work on a collaborative project and enhance my coding skills.
 we learned a lot while working on this project. we failed so many times and we never give up, in the last we finally made our Project successfully.
@@ -101,10 +105,6 @@ Git: Git is software for tracking changes in any set of files, usually used for 
 Github: GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its features.
 https://github.com/novitafinisher/Myntra-Project this is our project git hub link.
 We all became proficient in reading the code of team members. and we learned How to work and communicate with a team. and how to keep motivated each other throughout the problems.
-
-**Deployed Link**
-
-https://idyllic-zabaione-cafdda.netlify.app/
 
 
 
