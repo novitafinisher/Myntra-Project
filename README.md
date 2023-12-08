@@ -12,9 +12,9 @@ we learned a lot while working on this project. we failed so many times and we n
 
 **Team-Members.**
 
-Poorvi Thakur.(https://github.com/Poorvi0807)
-
 Saurav Chavan. (https://github.com/Saurav9284)
+
+Poorvi Thakur.(https://github.com/Poorvi0807)
 
 Pankaj Khatri. (https://github.com/MrPK4699)
 
