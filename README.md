@@ -4,7 +4,7 @@
 
 **Deployed Link**
 
-https://idyllic-zabaione-cafdda.netlify.app/
+https://saurav01myntra.netlify.app/
 
 
 First of all, I want to thank the Masai school for giving me this opportunity to work on a collaborative project and enhance my coding skills.
